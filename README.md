@@ -1,4 +1,4 @@
-# secretEscape
+# SecretEscape
 Service which exposes the account and transaction details . It also enable transfer of money between accounts.
 
 # Exposed services
