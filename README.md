@@ -38,7 +38,7 @@ Service which exposes the account and transaction details . It also enable trans
 
   specs : Holds all the Specification classes for adding predicates on repo calls
 
-#Tech stacks :
+# Tech stacks :
   Spring Rest Controller for exposing the endpoints via HTTP methods.
 
   H2 db used for saving the data.
