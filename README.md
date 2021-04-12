@@ -70,7 +70,7 @@ Run as Junit or using maven test : _mvn clean install test -Dtest=com.example.se
 
 ## Could have - 
 
-1. Develop UI for he services using grails
+1. Develop UI for the services using grails (time constraint ,since grails is new for me) 
 2. Add proper logging 
 3. Add Junit for email testing
 4. Add Integration junits
