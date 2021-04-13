@@ -27,7 +27,7 @@ public class EmailAspect {
     @Autowired
     AccountRepo accountRepo;
 
-    @Around(value = "execution(* com.example.se.controller.AccountController.getAccountTransactions(..))")
+    @Around(value = "execution(* com.example.se.controller.AccountController.doTransfer(..))")
     public String controllerAspectLogging(ProceedingJoinPoint joinPoint) throws Throwable {
         String result;
        // Enable it only when the sending email have to be performed.
