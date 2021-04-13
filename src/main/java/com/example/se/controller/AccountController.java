@@ -42,7 +42,7 @@ public class AccountController {
      * @return
      */
     @PostMapping("/transfer")
-    public String getAccountTransactions( @RequestBody Transactions transaction ){
+    public String doTransfer( @RequestBody Transactions transaction ){
         return service.addTransaction(transaction);
     }
 }
