@@ -62,7 +62,9 @@ Run as a spring Boot application.
 
 Application will be up and running on port _8821_.
 
-Enable email (if there are no firewall set up in your system) by uncommenting line 34 and 42 in com.example.se.aspect.EmailAspect.java class.
+To Enable email : If there are no firewall set up in your system by uncommenting line 34 and 42 in com.example.se.aspect.EmailAspect.java class.
+Application.properties file holds the sender email and password. Password should be the app password while using gmail as the mail entity. 
+To generate the app password : Go to sender gmail account -> manage google accounts --> security --> app passwords . Create a new app password for mail based on the OS the application is running. 
 
 # Run junits
 
